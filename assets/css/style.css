@@ -1,0 +1,48 @@
+
+/*draft note form*/
+#notepad {
+    display: inline-block;
+    border: solid 3px black;
+    border-radius: 10px;
+    height: 400px;
+    overflow: scroll;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+  
+  #note-title {
+    font-size: 24px;
+    padding: 0 0 5px 5px;
+    border-bottom: solid 2px #DEDEDE;
+  }
+  
+  #note-body {
+    padding: 5px;
+  }
+  
+  #body-field, #title-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+  }
+  
+  #title-field {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  #body-field {
+    font-size: 14px;
+    font-weight: 500;
+    height: 400px;
+  }
+  
+  .display {
+    display: visible;
+  }
+  
+  .no-display {
+    display: none;
+  }
